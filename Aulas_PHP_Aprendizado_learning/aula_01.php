@@ -3,8 +3,8 @@
 echo 'Arquivo Index';
 echo "<h1> Arquivo Index 2 </h1>";
 
-print 'texto usando print';
-print "texto dentro de Aspas duplas";
+print '<p> texto usando print </p>';
+print "<small> texto dentro de Aspas duplas </small>";
 
 
 ?>
