@@ -1,1 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*aplicando globalmente no Document, margem, espaçamento e border-box sizing*/
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+/*definindo as nossas cores*/
+:root{
+    /*Cor padrão*/
+    --color-default:#ff523b;
+    --color-default-hover:#f3b2e5;
+    --color-font:#fff;
+    --color-paragraph-p:#555;
+    --color-button-btn:#563434;
+    --color-btn-hover:#15ff00;
+    --color-btn-font:#000;
+    --color-font-body:#555;
+    --color-font-body-light:#777;
+    
+}
