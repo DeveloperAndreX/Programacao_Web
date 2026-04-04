@@ -1,13 +1,13 @@
 <?php
 // Criando Funcções;
-function falar()
+function falar($palavra)
 {
     return 'Boa tarde';
 }
-
-function resumirTexto()
+function resumirTexto($texto, $limite, $continue)
 {
-    return 'Resumindo o texto que estamos escrevendo';
+    return $texto;
+    
 }
 
 ?>
