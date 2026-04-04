@@ -113,3 +113,12 @@ p{
     color:var(--color-button-btn);
 }
 
+.btn {
+    text-decoration: none;
+    color:var(--color-font);
+    background:var(--color-button-btn);
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+}
+
