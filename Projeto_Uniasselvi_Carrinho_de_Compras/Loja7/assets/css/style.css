@@ -19,3 +19,8 @@
     --color-font-body-light:#777;
     
 }
+
+/*adicionando uma font padrão ao Body*/
+body {
+    font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+}
