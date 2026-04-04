@@ -7,6 +7,7 @@ function falar($palavra)
 function resumirTexto($texto, $limite, $continue)
 {
     return $texto;
+    // function the text. 
     
 }
 
