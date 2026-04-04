@@ -97,5 +97,20 @@ p{
 }
 /*formatando o img da col-2*/
 .col-2 img{
+    max-width: 100%;
+    padding: 50px 0px;
+}
+
+/*formatando o h1 que esta dentro do col-2*/
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+
+.col-2 p{
+    font-weight: 600;
+    color:var(--color-button-btn);
+
 
 }
