@@ -22,5 +22,80 @@
 
 /*adicionando uma font padrão ao Body*/
 body {
-    font-family: 'Poppins', sans-serif, Arial, Helvetica, sans-serif;
+    font-family:'Poppins',sans-serif;
+}
+
+/* Formatando a class="banner" */
+.banner{
+    background:radial-gradient(var(--color-default-hover), var(--color-default));
+}
+/*Formatando o banner . row */
+.banner .row{
+    margin-top:70px;
+}
+.container{
+    max-width:1300px;
+    margin: auto;
+    padding-left:25px;
+    padding-right:25px;
+}
+
+/*formatando meu navbar */
+.navbar {
+    display:flex;
+    align-items:center;
+    padding:20px;
+
+}
+
+/*formatando a tag: nav */
+nav {
+    flex: 1;
+    text-align:right;
+}
+
+/*formatando a tag nav ul*/
+nav ul {
+    display: inline-block;
+    list-style-type:none;
+}
+
+/*formatando a tag nav ul li*/
+nav ul li {
+    display:inline-block;
+    margin-right: 20px;
+}
+/*formatando a tag nav ul li a */
+nav ul li a {
+    text-decoration: none;
+    color:var(--color-font);
+    
+}
+
+/*formatando a classe paragrafo do banner*/
+.banner p{
+    color:var(--color-font);
+}
+
+p{
+    color: var(--color-paragraph-p);
+}
+
+/*trabalhando na class tag row*/
+.row {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+/*Formatando as classes de coluna*/
+
+.col-2 {
+    flex-basis:50%;
+    min-width:300px;
+  
+}
+/*formatando o img da col-2*/
+.col-2 img{
+
 }
