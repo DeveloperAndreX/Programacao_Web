@@ -1,8 +1,10 @@
 <?php
 // aula de INCLUDE E REQUIRE
-require 'Config.php';
+include_once 'aula_04.php';
+require_once 'Config.php';
 include_once 'helpers.php';
-echo "<h1>Arquivo usando o Include </h1>";
+echo falar();
+echo resumindoTexto();
 
 
 
