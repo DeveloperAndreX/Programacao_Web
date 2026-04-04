@@ -11,4 +11,11 @@ function resumirTexto($texto, $limite, $continue)
     
 }
 
+function somar((int)$a, (float)$b, $c)
+{
+
+ $result = ($a + $b) / $c;
+ return "A soma dos numeros e: {$result}";
+}
+
 ?>
