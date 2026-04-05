@@ -151,7 +151,7 @@ p{
 .col-3 img{
     width: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position:center;
 
 }
 /*estilizando a imagem dos produtos*/
@@ -160,6 +160,20 @@ p{
     max-width: 200px;
     padding: 10px;
     margin-bottom: 50px;
+    /*O transition faz o aumento leve.*/
+    transition: transform 0.5s;
 }
+/*quando passar o mouse no produto ele aumentara de tamanho.*/
+.col-4:hover{
+    transform:scale(1.1);
+
+}
+.col-4 img{
+    width:100%;
+    object-fit: cover;
+    object-position:center;
+
+}
+/*Estilização Produto 2*/
 
 
