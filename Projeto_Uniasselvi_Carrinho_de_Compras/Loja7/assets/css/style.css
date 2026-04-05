@@ -120,5 +120,14 @@ p{
     padding: 8px 30px;
     margin: 30px 0px;
     border-radius: 30px;
+    transition: background 0.7s;
 }
+
+.btn:hover{
+    background:var(--color-btn-hover);
+    color:var(--color-btn-font);
+
+}
+
+
 
