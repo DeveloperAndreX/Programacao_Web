@@ -154,6 +154,12 @@ p{
     object-position: center;
 
 }
-
+/*estilizando a imagem dos produtos*/
+.col-4{
+    flex-basis: 25%;
+    max-width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
 
 
